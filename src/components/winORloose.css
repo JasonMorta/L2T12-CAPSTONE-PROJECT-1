@@ -1,0 +1,97 @@
+.win-screen,
+.loose-screen {
+        background-color: #000000a3;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        height: 98%;
+        border-radius: 5px;
+        width: 100%;
+        z-index: 1;
+        font-family: puTang;
+}
+
+.win-screen img {
+        width: 83%;
+        min-width: 674px;
+        position: absolute;
+        bottom: 6px;
+        filter: drop-shadow(2px 4px 6px black);
+}
+
+.loose-screen img {
+        width: 83%;
+        min-width: 674px;
+        position: absolute;
+        bottom: 6px;
+        filter: drop-shadow(2px 4px 6px black);
+}
+
+
+/* 
+========================Image source
+https://www.vecteezy.com/vector-art/3811401-wooden-banners-empty-sign-boards-blank-cartoon-wooden-texture-template-board-banner-wooden-signboard-blank-empty-hardwood-badge-illustration
+========================
+*/
+.scoreBoard h1 {
+        color: #ffffff;
+        z-index: 1;
+        font-size: 36px;
+}
+
+
+.scoreBoard {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 81px;
+        align-items: flex-start;
+
+
+}
+
+/* win/lose menu */
+
+.scale-in-bottom {
+        -webkit-animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes scale-in-bottom {
+        0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                opacity: 1;
+        }
+
+        100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                opacity: 1;
+        }
+}
+
+@keyframes scale-in-bottom {
+        0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                opacity: 1;
+        }
+
+        100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                -webkit-transform-origin: 50% 100%;
+                transform-origin: 50% 100%;
+                opacity: 1;
+        }
+}

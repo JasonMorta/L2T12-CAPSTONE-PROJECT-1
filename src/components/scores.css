@@ -1,0 +1,25 @@
+/* 
+========================
+scoreBoard
+========================
+*/
+
+.scores {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: flex-end;
+   z-index: 1;
+}
+
+.scores p {
+   margin: 0px;
+}
+
+.matches {
+   margin-right: 10px;
+}
+
+.opacityZero {
+   opacity: 0;
+}
