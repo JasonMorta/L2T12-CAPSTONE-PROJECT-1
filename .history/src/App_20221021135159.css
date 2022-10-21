@@ -1,6 +1,15 @@
+body {
+  width: max-content;
+  margin: auto !important;
+  background-image: url(./back.jpg);
+}
+
+/* #root {
+  background-color: #68593e;
+} */
 .App-container {
   text-align: center;
-  background-color: #68593e;
+ 
   height: 100vh;
   display: flex;
   align-items: center;

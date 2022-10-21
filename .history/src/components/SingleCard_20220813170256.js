@@ -1,5 +1,5 @@
 import React from 'react'
-import cardBack from '../parabolic-pentagon.png'
+import cardBack from '../back.jpg'
 import '../cards.css'
 
 
@@ -8,13 +8,6 @@ export default function SingleCard({ card, handleChoice}) {
 
    const handleClick=()=>{
       handleChoice(card)
-   }
-
-   const imageStyle = {
-    backgroundImage: `url(${cardBack})`,
-    backgroundSize: `cover`,
-    backgroundRepeat: `no-repeat`,
-    backgroundPosition: `center`
    }
 
    const selected = card.isSelected ? " green ": "";
@@ -31,11 +24,11 @@ export default function SingleCard({ card, handleChoice}) {
                 alt="cardFront"/>
         </div>
         <div className="flip-card-back">
-          <div  style={imageStyle}
+          <img  src={cardBack}
                 className="back "
-                onClick={handleClick}>
-          </div>  
-          
+                alt="cardBack" 
+                onClick={handleClick}
+          />
         </div>
        
        </div>

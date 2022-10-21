@@ -1,15 +1,18 @@
 body {
   width: max-content;
   margin: auto !important;
-  background-color: #68593e !important;
+  background-image: url(./bermuda-circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-#root {
+/* #root {
   background-color: #68593e;
-}
+} */
 .App-container {
   text-align: center;
-  background-color: #68593e;
+ 
   height: 100vh;
   display: flex;
   align-items: center;

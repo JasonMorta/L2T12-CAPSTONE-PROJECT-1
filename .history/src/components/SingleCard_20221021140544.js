@@ -10,13 +10,6 @@ export default function SingleCard({ card, handleChoice}) {
       handleChoice(card)
    }
 
-   const imageStyle = {
-    backgroundImage: `url(${cardBack})`,
-    backgroundSize: `cover`,
-    backgroundRepeat: `no-repeat`,
-    backgroundPosition: `center`
-   }
-
    const selected = card.isSelected ? " green ": "";
    const faceUp = card.faceUp ? " face-up ": " face-down ";
    const border = card.blinkBorder ? " border-blink ":"";
@@ -31,11 +24,11 @@ export default function SingleCard({ card, handleChoice}) {
                 alt="cardFront"/>
         </div>
         <div className="flip-card-back">
-          <div  style={imageStyle}
+          <img  src={cardBack}
                 className="back "
-                onClick={handleClick}>
-          </div>  
-          
+                alt="cardBack" 
+                onClick={handleClick}
+          />
         </div>
        
        </div>

@@ -65,10 +65,6 @@
     border-radius: 3px;
     transition: .2s linear;
 }
-
-.back {
-   transition: .2s linear;
-}
 .flip-card-back .back:hover {
 background-origin: border-box;
 transition: .2s linear;

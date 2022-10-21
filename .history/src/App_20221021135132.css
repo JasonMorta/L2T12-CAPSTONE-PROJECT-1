@@ -1,13 +1,15 @@
 body {
   width: max-content;
+  margin: auto !important;
+  background-color: #68593e !important;
 }
 
-#root {
+/* #root {
   background-color: #68593e;
-}
+} */
 .App-container {
   text-align: center;
-  background-color: #68593e;
+  background-color: #322d23;
   height: 100vh;
   display: flex;
   align-items: center;

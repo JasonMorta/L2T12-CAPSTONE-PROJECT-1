@@ -11,10 +11,7 @@ export default function SingleCard({ card, handleChoice}) {
    }
 
    const imageStyle = {
-    backgroundImage: `url(${cardBack})`,
-    backgroundSize: `cover`,
-    backgroundRepeat: `no-repeat`,
-    backgroundPosition: `center`
+    backgroundImage: `url(${cardBack})`
    }
 
    const selected = card.isSelected ? " green ": "";

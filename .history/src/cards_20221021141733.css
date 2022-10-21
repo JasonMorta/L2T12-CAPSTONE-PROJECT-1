@@ -19,7 +19,6 @@
    height: 150px;
    perspective: 1000px;
    margin: 4px;
-   transition: .2s linear;
 }
 
 .flip-card-inner {
@@ -30,7 +29,6 @@
    transition: transform 0.3s;
    transform-style: preserve-3d;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   transition: .2s linear;
 }
 
 .face-up {
@@ -50,7 +48,6 @@
    height: 100%;
    -webkit-backface-visibility: hidden;
    backface-visibility: hidden;
-   transition: .2s linear;
 }
 
 
@@ -63,15 +60,11 @@
    height: 148px;
    border: 2px solid white;
     border-radius: 3px;
-    transition: .2s linear;
-}
-
-.back {
-   transition: .2s linear;
+    transition: .2s;
 }
 .flip-card-back .back:hover {
 background-origin: border-box;
-transition: .2s linear;
+transition: .2s;
 }
 
 .flip-card-back {

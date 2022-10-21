@@ -1,3 +1,12 @@
+body {
+  width: max-content;
+  margin: auto !important;
+  background-color: #68593e !important;
+}
+
+/* #root {
+  background-color: #68593e;
+} */
 .App-container {
   text-align: center;
   background-color: #68593e;
@@ -5,6 +14,8 @@
   display: flex;
   align-items: center;
   font-family: puTang, serif;
+  width: max-content;
+  margin: auto;
 }
 
 .App {
@@ -29,7 +40,7 @@
   box-shadow: 0px 0px 3px black;
   border: 5px #8bc34a;
   border-style: ridge;
-  width: -webkit-fill-available;
+  /* width: -webkit-fill-available; */
 }
 
 .heading {
